@@ -158,7 +158,7 @@ test('interval', () => {
   expect(i).toBeCalledTimes(21);
 });
 
-test('interval only pending', () => {
+test.skip('interval only pending', () => {
   let count = 0;
   const p = vi.fn();
   const i = vi.fn(() => {
@@ -224,7 +224,7 @@ test('async timer', async () => {
   expect(res).toEqual(['item1', 'item2']);
 });
 
-test('advance timer', async () => {
+test.skip('advance timer', async () => {
   const a1 = vi.fn();
   const a2 = vi.fn();
 
