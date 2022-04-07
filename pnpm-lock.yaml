@@ -2,25 +2,25 @@ lockfileVersion: 5.3
 
 specifiers:
   '@types/node': ^17.0.23
-  '@vitest/ui': ^0.8.2
+  '@vitest/ui': ^0.9.1
   happy-dom: ^2.55.0
   jsdom: ^19.0.0
   pathe: ^0.2.0
   taze: ^0.5.0
   typescript: ^4.6.3
   vite: ^2.9.1
-  vitest: ^0.8.2
+  vitest: ^0.9.1
 
 devDependencies:
   '@types/node': 17.0.23
-  '@vitest/ui': 0.8.2
+  '@vitest/ui': 0.9.1
   happy-dom: 2.55.0
   jsdom: 19.0.0
   pathe: 0.2.0
   taze: 0.5.0
   typescript: 4.6.3
   vite: 2.9.1
-  vitest: 0.8.2_a6a1ea61ae460d80fd5103fbda20cd3a
+  vitest: 0.9.1_bbb8c1dd46f4fc963896a73146a7cc69
 
 packages:
 
@@ -162,8 +162,8 @@ packages:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: true
 
-  /@vitest/ui/0.8.2:
-    resolution: {integrity: sha512-P6r3C9/Uxbkj+NOSom4YfVbMX5j3zlI/i1TKA8B4bMqHG1PqR40uFv9O0VydEiHqGrxQ/oo8yAgOP1cjOeEsYw==}
+  /@vitest/ui/0.9.1:
+    resolution: {integrity: sha512-8ngIWhUCzXh/rAObbVA7SC92mpG5naiMIBM7YpASpr/dsCaqIwfSBU0ak9bSoYdCITBA+/SuQqiW3qCxyUiA7w==}
     dependencies:
       sirv: 2.0.2
     dev: true
@@ -2230,8 +2230,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: true
 
-  /tinyspy/0.3.0:
-    resolution: {integrity: sha512-c5uFHqtUp74R2DJE3/Efg0mH5xicmgziaQXMm/LvuuZn3RdpADH32aEGDRyCzObXT1DNfwDMqRQ/Drh1MlO12g==}
+  /tinyspy/0.3.2:
+    resolution: {integrity: sha512-2+40EP4D3sFYy42UkgkFFB+kiX2Tg3URG/lVvAZFfLxgGpnWl5qQJuBw1gaLttq8UOS+2p3C0WrhJnQigLTT2Q==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -2379,8 +2379,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.8.2_a6a1ea61ae460d80fd5103fbda20cd3a:
-    resolution: {integrity: sha512-dTFDJl2F3pkWy1tcE3M29LasklhgtP7M88kT7AJcAurX7nCl/eWu1PQeSzjzWQyUbDq2p8jqdoLETd7MDeibcA==}
+  /vitest/0.9.1_bbb8c1dd46f4fc963896a73146a7cc69:
+    resolution: {integrity: sha512-rgtGuhqHCKC/8kplYF4q1GIZCTt41s1mReOA1vGkFBOpe7w6IlNFTclJuzv6JlUX9Vd9H9GYSUCzjjHXyx+3Tg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -2400,13 +2400,13 @@ packages:
     dependencies:
       '@types/chai': 4.3.0
       '@types/chai-subset': 1.3.3
-      '@vitest/ui': 0.8.2
+      '@vitest/ui': 0.9.1
       chai: 4.3.6
       happy-dom: 2.55.0
       jsdom: 19.0.0
       local-pkg: 0.4.1
       tinypool: 0.1.2
-      tinyspy: 0.3.0
+      tinyspy: 0.3.2
       vite: 2.9.1
     transitivePeerDependencies:
       - less

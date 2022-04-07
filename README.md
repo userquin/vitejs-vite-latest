@@ -1,5 +1,7 @@
 # Vitest on stackblitz
 
+`Vite 2.9.1` and `Vitest 0.9.1`.
+
 To run the tests run `vitest`.
 
 To run the tests on the UI run `vitest --ui`.
