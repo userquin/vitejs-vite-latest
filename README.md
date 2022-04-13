@@ -1,6 +1,6 @@
 # Vitest on stackblitz
 
-`Vite 2.9.1` and `Vitest 0.9.2`.
+`Vite 2.9.2` and `Vitest 0.9.2`.
 
 To run the tests run `vitest`.
 
